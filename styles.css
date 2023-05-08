@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    accent-color: var(--blue);   
+    font-family: 'Poppins', sans-serif;
+    transition: al .3s ease;
+}
+
+body {
+    height: 100vh; 
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
+    color:white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --black: #151515;
+    --grey: #282a30;
+    --offwhite: rgba(255, 255, 255, 0.3);
+    --blue:#38b6ff;
+}
+
+main {
+    background-color: var(--grey);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+}
+
+input{
+    margin-top: 10px;
+    transition: all .3s ease;
+    outline: none;
+    caret-color: white;
+    background-color: var(--grey);
+    border: 2px solid var(--offwhite);
+    font-size: 1.25rem;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+input:focus{
+    border: 2px solid white;
+
+}
+
+.input {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    top: 60%;
+    transform: translate(-40px, -50%);
+    padding: 5px 7px;
+    cursor: pointer;
+} 
+
+span i {
+    color: white;
+}
+
+p {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+    margin: auto;
+    pointer-events: none;
+}
+
+.img img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+
+    .img {
+        width: 350px;
+
+    }
+  }
+
