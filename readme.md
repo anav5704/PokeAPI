@@ -2,6 +2,8 @@
 
 ![hero](https://github.com/anav5704/PokeAPI/blob/main/docs/pokeapi.png)
 
+This is a simple pokemon search app made using the PokeAPI API. I made this back then when I was learning JavaScript. Was really excited to work with an API and being able to use fetch was like a mini dream come true.
+
 ## Technologies Used
 
 - HTML
